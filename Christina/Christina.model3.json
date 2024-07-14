@@ -141,11 +141,11 @@
   "HitAreas": [
     {
       "Id": "HitAreaHead",
-      "Name": "Head"
+      "Name": "Part11"
     },
     {
       "Id": "HitAreaBody",
-      "Name": "Body"
+      "Name": "Part13"
     }
   ]
 }

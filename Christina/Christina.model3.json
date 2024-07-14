@@ -1,0 +1,151 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "Christina.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": null,
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/loop.motion3.json"
+        }
+      ],
+      "Tap": [
+        {
+          "File": "motions/tap1.motion3.json",
+          "Sound": "sounds/Stereo Love.mp3"
+        },
+        {
+          "File": "motions/tap2.motion3.json",
+          "Sound": "sounds/Stereo Love.mp3"
+        },
+        {
+          "File": "motions/tap3.motion3.json",
+          "Sound": "sounds/Stereo Love.mp3"
+        }
+      ],
+      "anger": [
+        {
+          "File": "motions/anger.motion3.json"
+        }
+      ],
+      "anger loop": [
+        {
+          "File": "motions/anger_loop.motion3.json"
+        }
+      ],
+      "bashful": [
+        {
+          "File": "motions/bashful.motion3.json"
+        }
+      ],
+      "bashful loop": [
+        {
+          "File": "motions/bashful_loop.motion3.json"
+        }
+      ],
+      "bashful 2": [
+        {
+          "File": "motions/bashful2.motion3.json"
+        }
+      ],
+      "bashful 2 loop": [
+        {
+          "File": "motions/bashful2_loop.motion3.json"
+        }
+      ],
+      "blues": [
+        {
+          "File": "motions/blues.motion3.json"
+        }
+      ],
+      "blues loop": [
+        {
+          "File": "motions/blues_loop.motion3.json"
+        }
+      ],
+      "cutin": [
+        {
+          "File": "motions/cutin.motion3.json"
+        }
+      ],
+      "ease": [
+        {
+          "File": "motions/ease.motion3.json"
+        }
+      ],
+      "ease loop": [
+        {
+          "File": "motions/ease_loop.motion3.json"
+        }
+      ],
+      "elapse": [
+        {
+          "File": "motions/elapse.motion3.json"
+        }
+      ],
+      "exciting": [
+        {
+          "File": "motions/exciting.motion3.json"
+        }
+      ],
+      "exciting loop": [
+        {
+          "File": "motions/exciting_loop.motion3.json"
+        }
+      ],
+      "joy": [
+        {
+          "File": "motions/joy.motion3.json"
+        }
+      ],
+      "joy loop": [
+        {
+          "File": "motions/joy_loop.motion3.json"
+        }
+      ],
+      "serious": [
+        {
+          "File": "motions/serious.motion3.json"
+        }
+      ],
+      "serious loop": [
+        {
+          "File": "motions/serious_loop.motion3.json"
+        }
+      ],
+      "surprise": [
+        {
+          "File": "motions/surprise.motion3.json"
+        }
+      ],
+      "surprise loop": [
+        {
+          "File": "motions/surprise_loop.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Id": "HitAreaHead",
+      "Name": "Head"
+    },
+    {
+      "Id": "HitAreaBody",
+      "Name": "Body"
+    }
+  ]
+}
